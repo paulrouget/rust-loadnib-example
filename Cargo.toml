@@ -1,0 +1,12 @@
+[package]
+name = "loadnib_example"
+version = "0.1.0"
+authors = ["Paul Rouget <me@paulrouget.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+objc = "0.2"
+objc-foundation = "*"
+cocoa = "0.6"
+log = "0.3"
